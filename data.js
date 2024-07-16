@@ -111,7 +111,7 @@ export const restaurants = [
     {
       id: 7,
       name: 'Salad Station',
-      category: 'Italian',
+      category: 'Chinese',
       rating: 3.9,
       priceRange: '$$$',
         image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
@@ -147,7 +147,7 @@ export const restaurants = [
     {
       id: 9,
       name: 'Noodle Nook',
-      category: 'Italian',
+      category: 'Chinese',
       rating: 4.4,
       priceRange: '$',
         image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
@@ -183,7 +183,7 @@ export const restaurants = [
     {
       id: 11,
       name: 'Sandwich Shack',
-      category: 'Italian',
+      category: 'Chinese',
       rating: 4.0,
       priceRange: '$',
         image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
@@ -219,7 +219,7 @@ export const restaurants = [
     {
       id: 13,
       name: 'Dumpling Den',
-      category: 'Italian',
+      category: 'Chinese',
       rating: 4.5,
       priceRange: '$$',
         image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
