@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 
-// Routes
+
 app.get('/api/restaurants', (req, res) => {
   const { category, page = 1, limit = 10 } = req.query;
   let filteredRestaurants = restaurants;
@@ -30,6 +30,13 @@ app.get('/api/restaurants', (req, res) => {
   });
 });
 
+app.get('/api/category', (req, res) => {
+  const categories = [...new Set(restaurants.map(r => r.category))];
+
+  res.json({
+    categories: categories,
+  });
+});
 
 app.get('/api/restaurants/:id', (req, res) => {
   const restaurant = restaurants.find((r) => r.id === parseInt(req.params.id, 10));
