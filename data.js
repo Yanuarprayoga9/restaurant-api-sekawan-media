@@ -1,364 +1,293 @@
 // Sample data for restaurants
 export const restaurants = [
-    {
-      id: 1,
-      name: 'Pasta Place',
-      category: 'Italian',
-      rating: 4.5,
-      priceRange: '$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
+  {
+    "id": 1,
+    "name": "Pasta Place",
+    "category": "Italian",
+    "rating": 4.5,
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1717457782058-d8c50bfedc3a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+      {
+        "image": "https://images.unsplash.com/profile-1713464619661-f22486c8a806image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+        "name": "John Doe",
+        "rating": 5,
+        "text": "Amazing food and service!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Taco Town",
+    "category": "Mexican",
+    "rating": 4.0,
+    "priceRange": "$",
+    "image": "https://plus.unsplash.com/premium_photo-1661953124283-76d0a8436b87?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": false,
+    "reviews": [
+      {
+        "image": "https://images.unsplash.com/profile-1661537276190-b27bf63fd940image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+        "name": "Jane Doe",
+        "rating": 4,
+        "text": "Good ambiance but average food."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Burger Bistro",
+    "category": "Italian",
+    "rating": 3.8,
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+      {
+        "image": "https://images.unsplash.com/profile-1574623311321-015452cd1304image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+        "name": "Alice Smith",
+        "rating": 3,
+        "text": "Would definitely come back!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sushi Spot",
+    "category": "Mexican",
+    "rating": 4.7,
+    "priceRange": "$$$",
+    "image": "https://images.unsplash.com/photo-1497644083578-611b798c60f3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+      {
+        "image": "https://images.unsplash.com/profile-1711641460182-914ca120d69fimage?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+        "name": "Bob Brown",
+        "rating": 5,
+        "text": "Not worth the price."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pizza Palace",
+    "category": "Italian",
+    "rating": 4.2,
+    "priceRange": "$",
+    "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": false,
+    "reviews": [
+      {
+        "image": "https://images.unsplash.com/profile-fb-1500664747-f26010eaed72.jpg?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+        "name": "Charlie Black",
+        "rating": 4.5,
+        "text": "Fantastic experience!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Curry Corner",
+    "category": "Mexican",
+    "rating": 4.5,
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+    "isOpen": true,
+    "reviews": [
+      {
+        "image": "https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+        "name": "Dana White",
+        "rating": 4.8,
+        "text": "Spicy and flavorful!"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "BBQ Barn",
+    "category": "American",
+    "rating": 4.3,
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+    "isOpen": false,
+    "reviews": [
         {
-        image: 'review1.jpg',
-          name: 'John Doe',
-          rating: 5,
-          text: 'Amazing food and service!',
-        },
-      ],
+            "image": "https://images.unsplash.com/profile-1713464619661-f22486c8a806image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+            "name": "Eva Green",
+            "rating": 4.2,
+            "text": "Great BBQ, will return!"
+        }
+    ]
+},
+{
+    "id": 8,
+    "name": "French Bistro",
+    "category": "French",
+    "rating": 4.6,
+    "priceRange": "$$$",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+        {
+            "image": "https://images.unsplash.com/profile-1496904177663-8656de65bf50?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+            "name": "George White",
+            "rating": 5,
+            "text": "A delightful experience."
+        }
+    ]
+},
+{
+    "id": 9,
+    "name": "Thai Terrace",
+    "category": "Thai",
+    "rating": 4.4,
+    "priceRange": "$$",
+    "image": "https://plus.unsplash.com/premium_photo-1673830185894-9030c9e7eba9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+        {
+            "image": "https://images.unsplash.com/profile-fb-1444241666-4923a57f944a.jpg?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+            "name": "Hannah Brown",
+            "rating": 4.5,
+            "text": "Authentic Thai flavors."
+        }
+    ]
+},
+{
+    "id": 10,
+    "name": "Noodle Nook",
+    "category": "Chinese",
+    "rating": 4.0,
+    "priceRange": "$",
+    "image": "https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": false,
+    "reviews": [
+        {
+            "image": "https://images.unsplash.com/profile-1713464619661-f22486c8a806image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+            "name": "Ivan Black",
+            "rating": 3.8,
+            "text": "Good for a quick meal."
+        }
+    ]
+},
+{
+    "id": 11,
+    "name": "Mediterranean Magic",
+    "category": "Mediterranean",
+    "rating": 4.7,
+    "priceRange": "$$$",
+    "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+        {
+            "image": "https://images.unsplash.com/profile-1711641460182-914ca120d69fimage?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+            "name": "Jackie Grey",
+            "rating": 4.9,
+            "text": "Wonderful dining experience!"
+        }
+    ]
+},
+{
+    "id": 12,
+    "name": "Vegan Vibes",
+    "category": "Vegan",
+    "rating": 4.2,
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/profile-fb-1500664747-f26010eaed72.jpg?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+    "isOpen": false,
+    "reviews": [
+        {
+            "image": "https://images.unsplash.com/profile-1651833664038-5f148b975d38image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+            "name": "Kelly White",
+            "rating": 4.3,
+            "text": "Healthy and tasty!"
+        }
+    ]
+},
+{
+    "id": 13,
+    "name": "Deli Delight",
+    "category": "Deli",
+    "rating": 3.9,
+    "priceRange": "$",
+    "image": "https://images.unsplash.com/photo-1497644083578-611b798c60f3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+        {
+            "image": "https://images.unsplash.com/profile-1661537276190-b27bf63fd940image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+            "name": "Leo Green",
+            "rating": 4.0,
+            "text": "Great sandwiches."
+        }
+    ]
+},
+{
+    "id": 14,
+    "name": "Bakery Bliss",
+    "category": "Bakery",
+    "rating": 4.5,
+    "priceRange": "$",
+    "image": "https://plus.unsplash.com/premium_photo-1673830185894-9030c9e7eba9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "isOpen": true,
+    "reviews": [
+        {
+            "image": "https://images.unsplash.com/photo-1717457782058-d8c50bfedc3a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+            "name": "Mia White",
+            "rating": 4.8,
+            "text": "Delicious pastries."
+        }
+    ]
+},
+{
+  "id": 15,
+  "name": "Steakhouse Supreme",
+  "category": "Steakhouse",
+  "rating": 4.6,
+  "priceRange": "$$$$",
+  "image": "https://images.unsplash.com/photo-1717457779539, // Gambar untuk Nacho Nook-7e56d7e3424?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+        "isOpen": true,
+        "reviews": [
+            {
+                "image": "https://images.unsplash.com/photo-1603415526960-767f7db4ee2f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+                "name": "Zoe Blue",
+                "rating": 4.7,
+                "text": "Perfect steaks, amazing ambiance."
+            }
+        ]
     },
     {
-      id: 2,
-      name: 'Taco Town',
-      category: 'Mexican',
-      rating: 4.0,
-      priceRange: '$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: false,
-      reviews: [
-        {
-        image: 'review2.jpg',
-          name: 'Jane Doe',
-          rating: 4,
-          text: 'Good ambiance but average food.',
-        },
-      ],
+        "id": 16,
+        "name": "Sushi Station",
+        "category": "Japanese",
+        "rating": 4.8,
+        "priceRange": "$$$",
+        "image": "https://images.unsplash.com/photo-1552566626-52b5097e7b22?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VzaGklMjByZXN0YXVyYW50fGVufDB8fDB8fHww",
+        "isOpen": false,
+        "reviews": [
+            {
+                "image": "https://images.unsplash.com/photo-1542322381-ffb4bb3b5e28?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+                "name": "Sam Orange",
+                "rating": 4.9,
+                "text": "Best sushi in town!"
+            }
+        ]
     },
     {
-      id: 3,
-      name: 'Burger Bistro',
-      category: 'Italian',
-      rating: 3.8,
-      priceRange: '$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review3.jpg',
-          name: 'Alice Smith',
-          rating: 3,
-          text: 'Would definitely come back!',
-        },
-      ],
-    },
-    {
-      id: 4,
-      name: 'Sushi Spot',
-      category: 'Mexican',
-      rating: 4.7,
-      priceRange: '$$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review4.jpg',
-          name: 'Bob Brown',
-          rating: 5,
-          text: 'Not worth the price.',
-        },
-      ],
-    },
-    {
-      id: 5,
-      name: 'Pizza Palace',
-      category: 'Italian',
-      rating: 4.2,
-      priceRange: '$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: false,
-      reviews: [
-        {
-        image: 'review5.jpg',
-          name: 'Charlie Black',
-          rating: 4.5,
-          text: 'Fantastic experience!',
-        },
-      ],
-    },
-    {
-      id: 6,
-      name: 'Curry Corner',
-      category: 'Mexican',
-      rating: 4.1,
-      priceRange: '$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review6.jpg',
-          name: 'Diana Green',
-          rating: 4.2,
-          text: 'A hidden gem.',
-        },
-      ],
-    },
-    {
-      id: 7,
-      name: 'Salad Station',
-      category: 'Chinese',
-      rating: 3.9,
-      priceRange: '$$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: false,
-      reviews: [
-        {
-        image: 'review7.jpg',
-          name: 'Emily White',
-          rating: 4,
-          text: 'Could be better.',
-        },
-      ],
-    },
-    {
-      id: 8,
-      name: 'BBQ Barn',
-      category: 'Mexican',
-      rating: 4.3,
-      priceRange: '$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review8.jpg',
-          name: 'Frank Gray',
-          rating: 4.5,
-          text: 'Loved the desserts!',
-        },
-      ],
-    },
-    {
-      id: 9,
-      name: 'Noodle Nook',
-      category: 'Chinese',
-      rating: 4.4,
-      priceRange: '$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: false,
-      reviews: [
-        {
-        image: 'review9.jpg',
-          name: 'Gina Brown',
-          rating: 4.7,
-          text: 'Friendly staff and cozy place.',
-        },
-      ],
-    },
-    {
-      id: 10,
-      name: 'Steakhouse',
-      category: 'Mexican',
-      rating: 4.6,
-      priceRange: '$$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review10.jpg',
-          name: 'Henry Silver',
-          rating: 4.8,
-          text: 'Will visit again.',
-        },
-      ],
-    },
-    {
-      id: 11,
-      name: 'Sandwich Shack',
-      category: 'Chinese',
-      rating: 4.0,
-      priceRange: '$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review11.jpg',
-          name: 'Irene Gold',
-          rating: 4.0,
-          text: 'Good for a quick bite.',
-        },
-      ],
-    },
-    {
-      id: 12,
-      name: 'Seafood Spot',
-      category: 'Mexican',
-      rating: 3.8,
-      priceRange: '$$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: false,
-      reviews: [
-        {
-        image: 'review12.jpg',
-          name: 'Jack Blue',
-          rating: 3.9,
-          text: 'Fresh seafood!',
-        },
-      ],
-    },
-    {
-      id: 13,
-      name: 'Dumpling Den',
-      category: 'Chinese',
-      rating: 4.5,
-      priceRange: '$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review13.jpg',
-          name: 'Kathy Purple',
-          rating: 4.6,
-          text: 'Delicious dumplings!',
-        },
-      ],
-    },
-    {
-      id: 14,
-      name: 'Taco Terrace',
-      category: 'Mexican',
-      rating: 4.1,
-      priceRange: '$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review14.jpg',
-          name: 'Liam Green',
-          rating: 4.2,
-          text: 'Tacos are amazing!',
-        },
-      ],
-    },
-    {
-      id: 15,
-      name: 'Bistro Bites',
-      category: 'Italian',
-      rating: 4.7,
-      priceRange: '$$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: false,
-      reviews: [
-        {
-        image: 'review15.jpg',
-          name: 'Mona Red',
-          rating: 4.9,
-          text: 'Best bistro in town!',
-        },
-      ],
-    },
-    {
-      id: 16,
-      name: 'Grill Grill',
-      category: 'Mexican',
-      rating: 4.3,
-      priceRange: '$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review16.jpg',
-          name: 'Nathan Yellow',
-          rating: 4.4,
-          text: 'Great grilling experience!',
-        },
-      ],
-    },
-    {
-      id: 17,
-      name: 'Pasta Perfection',
-      category: 'Italian',
-      rating: 4.4,
-      priceRange: '$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review17.jpg',
-          name: 'Olivia Pink',
-          rating: 4.5,
-          text: 'Pasta is perfect!',
-        },
-      ],
-    },
-    {
-      id: 18,
-      name: 'Nacho Nook',
-      category: 'Mexican',
-      rating: 4.0,
-      priceRange: '$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: false,
-      reviews: [
-        {
-        image: 'review18.jpg',
-          name: 'Paul Orange',
-          rating: 4.1,
-          text: 'Nachos are a must-try!',
-        },
-      ],
-    },
-    {
-      id: 19,
-      name: 'Pizza Perfection',
-      category: 'Italian',
-      rating: 4.8,
-      priceRange: '$$$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review19.jpg',
-          name: 'Quincy Gray',
-          rating: 5.0,
-          text: 'Best pizza ever!',
-        },
-      ],
-    },
-    {
-      id: 20,
-      name: 'Taco Delight',
-      category: 'Mexican',
-      rating: 4.2,
-      priceRange: '$',
-        image: 'nacho_nook.jpg', // Gambar untuk Nacho Nook
-
-      isOpen: true,
-      reviews: [
-        {
-        image: 'review20.jpg',
-          name: 'Rachel White',
-          rating: 4.3,
-          text: 'Delightful tacos!',
-        },
-      ],
-    },
+        "id": 17,
+        "name": "Pasta Palace",
+        "category": "Italian",
+        "rating": 4.5,
+        "priceRange": "$$",
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+        "isOpen": true,
+        "reviews": [
+            {
+                "image": "https://images.unsplash.com/photo-1502767089025-6572583495e2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+                "name": "Tina Yellow",
+                "rating": 4.6,
+                "text": "Authentic Italian cuisine."
+            }
+        ]
+    }
   ];
   
