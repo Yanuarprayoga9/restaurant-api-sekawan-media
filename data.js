@@ -10,10 +10,34 @@ export const restaurants = [
     "isOpen": true,
     "reviews": [
       {
-        "image": "https://images.unsplash.com/profile-1713464619661-f22486c8a806image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
-        "name": "John Doe",
+        "image": "https://images.unsplash.com/profile-1519224159801-4a1b9b7cbd6eimage?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+        "name": "Alice Smith",
+        "rating": 4,
+        "text": "Great place with a cozy atmosphere. Food was delicious!"
+      },
+      {
+        "image": "https://plus.unsplash.com/premium_photo-1661953124283-76d0a8436b87?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+        "name": "Bob Johnson",
+        "rating": 3,
+        "text": "The service was slow, but the food made up for it."
+      },
+      {
+        "image": "https://images.unsplash.com/profile-1519165457400-76a3d9b62032image?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&crop=faces&fit=crop&h=32",
+        "name": "Clara Williams",
         "rating": 5,
-        "text": "Amazing food and service!"
+        "text": "Best dining experience I've had in a while!"
+      },
+      {
+        "image": "https://plus.unsplash.com/premium_photo-1661953124283-76d0a8436b87?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+        "name": "David Brown",
+        "rating": 2,
+        "text": "The food was bland and overpriced. Not coming back."
+      },
+      {
+        "image": "https://plus.unsplash.com/premium_photo-1661953124283-76d0a8436b87?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+        "name": "Emily Davis",
+        "rating": 4,
+        "text": "Lovely ambiance and friendly staff. Will visit again!"
       }
     ]
   },
