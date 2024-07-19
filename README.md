@@ -49,7 +49,7 @@ category (optional): Filter restaurants by category.
 page (optional): Page number for pagination. Default is 1.
 limit (optional): Number of restaurants per page. Default is 10.
 Response
-```json 
+``` json 
 {
   "total": 1,
   "page": 1,
@@ -144,7 +144,8 @@ Response
       "text": "Lovely ambiance and friendly staff. Will visit again!"
     }
   ]
-}```
+} 
+```
 ###  Get Categories
 Endpoint
 GET /api/category
@@ -152,7 +153,8 @@ Response
 ```json
 {
   "categories": ["Italian", "Chinese", "Mexican"]
-}```
+}
+```
 Error Handling
 The API returns appropriate HTTP status codes and error messages:
 
