@@ -20,11 +20,13 @@ POST /api/login
   "username": "admin",
   "password": "admin"
 }
+```
 Response
-json
+```json
 {
   "accessToken": "your_jwt_token_here"
 }
+```
 Protected Routes
 To access the protected routes, you need to include the JWT token in the Authorization header:
 
@@ -33,11 +35,11 @@ Get Protected Route
 Endpoint
 GET /api/protected
 Response
-json
+```json
 {
   "message": "This is a protected route!"
 }
-
+```
 ## Restaurants
 ### Get All Restaurants
 Endpoint
@@ -47,7 +49,7 @@ category (optional): Filter restaurants by category.
 page (optional): Page number for pagination. Default is 1.
 limit (optional): Number of restaurants per page. Default is 10.
 Response
-json
+```json 
 {
   "total": 1,
   "page": 1,
@@ -96,11 +98,12 @@ json
     }
   ]
 }
+```
 ###  Get Restaurant by ID
 Endpoint
 GET /api/restaurants/:id
 Response
-json
+```json
 {
   "id": 1,
   "name": "Pasta Place",
@@ -141,15 +144,15 @@ json
       "text": "Lovely ambiance and friendly staff. Will visit again!"
     }
   ]
-}
+}```
 ###  Get Categories
 Endpoint
 GET /api/category
 Response
-json
+```json
 {
-  "categories": ["Italian", "Chinese", "Mexican", ...]
-}
+  "categories": ["Italian", "Chinese", "Mexican"]
+}```
 Error Handling
 The API returns appropriate HTTP status codes and error messages:
 
