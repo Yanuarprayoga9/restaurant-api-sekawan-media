@@ -45,6 +45,13 @@ app.post('/api/login', (req, res) => {
   }
 });
 
+app.get('/api/',  (req, res) => {
+  res.json({ message: 'SERVICE RUNNING' });
+});
+app.get('/',  (req, res) => {
+  res.json({ message: 'GO TO /api' });
+});
+
 app.get('/api/protected', verifyToken, (req, res) => {
   res.json({ message: 'This is a protected route!' });
 });
